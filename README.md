@@ -135,6 +135,6 @@
   ]
 }
 ```
--. 关于展示这里不是重点，我只是将最后获取的map列表的url，展示到了listview上，如下图所示
+-. 关于展示这里不是重点，我只是从Photo获取的map列表的url，展示到了listview上，如下图所示
 ![效果.png](https://github.com/wozhizhizhi/flutter_jsonparser/blob/master/images/GIF.gif)
 
