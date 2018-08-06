@@ -5,6 +5,7 @@ import 'services/shape_setvices.dart';
 import 'services/Product_setvices.dart';
 import 'services/photo_setvices.dart';
 import 'package:flutter_jsonparser/photo.dart';
+import 'services/page_setvices.dart';
 import 'dart:async';
 
 void main() {
@@ -23,6 +24,10 @@ void main() {
 
   PhotoSetvice photoSetvice = new PhotoSetvice();
   photoSetvice.loadPhotoJson();
+
+  // 最后一组是对于复杂数组的解析,界面是没有效果的请看打印的获取
+  PageSetvices pageSetvices = new PageSetvices();
+  pageSetvices.shapeJson();
 }
 
 /**

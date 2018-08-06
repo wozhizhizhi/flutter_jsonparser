@@ -32,6 +32,7 @@ flutter:
    - assets/shape.json
    - assets/product.json
    - assets/photo.json
+   - assets/page.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
